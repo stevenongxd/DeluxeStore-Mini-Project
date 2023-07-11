@@ -1,0 +1,3 @@
+# DeluxeStore-Mini-Project
+
+DeluxeStore is a sleek and user-friendly online store catering to the fashion needs of the young generation. This simple yet stylish website features three main pages: Home, Products, and Register. Designed with a responsive layout and powered by JavaScript DOM, DeluxeStore seamlessly adapts to different devices for a seamless shopping experience. Explore a wide range of trendy clothes, jackets, and pants specifically curated to appeal to teenagers. Whether you're looking for the latest fashion trends or timeless classics, DeluxeStore has everything you need to express your unique style.

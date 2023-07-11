@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/general.css">
+  <link rel="stylesheet" href="/register.css">
+</head>
+<body>
+  <div class="content-container">
+
+    <!-- Header -->
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <h1>DeluxeStore</h1>
+        </div>
+    
+        <nav>
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/product.html">Products</a></li>
+            <li><a href="/register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="title">
+        <h1>REGISTRATION</h1>
+      </div>
+
+      <form action="">
+        <label for="username">Username*</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Password*</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="repass">Confirm Password*</label>
+        <input type="password" name="repass" id="repass">
+        <br>
+        <label for="email">Email*</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <p>Gender*</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="checkbox" name="toc" id="toc"> 
+        <label for="toc">You must agree with our Terms and Conditions*</label>
+        <br>
+        <button type="button" onclick="Submit()">Register</button>
+      </form>
+    </main>
+
+    <footer>
+      <div class="footer-desc">
+        <p>Copyright &copy; 2021 - DeluxeStore</p>
+      </div>
+      <div class="footer-contact">
+        <img src="/assets/instagram-icon.png" alt="">
+        <img src="/assets/facebook-icon.png" alt="">
+        <img src="/assets/twitter-icon.png" alt="">
+      </div>
+    </footer>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>

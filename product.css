@@ -1,0 +1,209 @@
+/* Header */
+nav ul li:nth-child(2) {
+  background-color: #F05454;
+  border-radius: 10px;
+}
+
+main {
+  margin: 20px 0px 0px 0px;
+}
+
+/* Tops Content */
+#tops-content {
+  margin-bottom: 40px;
+}
+
+#tops-content .judul {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#tops-content #cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  width: 400px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.desc {
+  margin-top: 10px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-side {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #888;
+}
+
+.bottom-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.clothes-name {
+  margin-top: 5px;
+}
+
+/* Bottom Content */
+#bottom-content {
+  margin-bottom: 40px;
+}
+
+#bottom-content .judul {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#bottom-content #cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Outwear Content */
+#outwear-content .judul {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#outwear-content #cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Modal */
+/* Add to Cart button */
+.add-to-cart-button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #30475E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #888;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-close-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #30475E;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#modal-product-info {
+  text-align: center;
+}
+
+.modal-product-image {
+  width: 200px;
+  height: auto;
+}
+
+.success-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  .cards {
+    width: 45%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cards {
+    width: 100%;
+  }
+}
+
+/* Hover Animation */
+@keyframes hover-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

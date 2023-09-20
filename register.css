@@ -1,0 +1,64 @@
+/* Header */
+nav ul li:nth-child(3) {
+  background-color: #F05454;
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0px 20px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  margin: 15px 0px 20px 0px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #30475E;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media(max-width:800px) {
+  .title h1 {
+    font-size: x-large;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+@media(max-width:400px) {
+  label {
+    font-size: small;
+  }
+}
